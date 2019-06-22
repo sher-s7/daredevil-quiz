@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Daredevil: Test Your Knowledge</title>
+		<link rel="stylesheet" type="text/css" href="quiz.css">
+	</head>
+	<div class="bg"><img src="BridgeFront.jpg" width="100%" height="100%"></div>
+	<body>
+		<header>
+			<img class="header" src="ddlogo.png" width="200px"></img><h1 class="header"><span class="daredevil">DAREDEVIL</span>: Test Your Knowledge</h1>
+		</header>
+
+		<form class="start">
+			<button type="submit"> Start the quiz</button>
+		</form>
+		<div class="questions" id="hidden">
+			<form class="question">
+				<h2 class="question-text"></h2>
+					<div class="choices">
+						
+					</div>
+				<button type="submit" class="next-button"></button>
+			</form>
+
+		</div>
+		<div class="final-page" id="hidden">
+			<h3>Final Score: <span class="score"></span></h3>
+			<div class="message"></div>
+			<button class="reset-button">Play again?</button>
+		</div>
+		<div class="checkboxes" id="hidden">
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script type="text/javascript" src="quiz.js"></script>
+	</body>
+</html>
