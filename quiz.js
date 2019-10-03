@@ -3,7 +3,7 @@ let state = {
 		{
 			text:"What was the year of Daredevil's first appearance in the Marvel comics?",
 			choices: ['1963','1964','1969','1972'],
-			correctAnswerIndex: 0
+			correctAnswerIndex: 1
 		},
 		{
 			text:"What is Daredevil's real name?",
