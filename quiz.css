@@ -96,10 +96,12 @@ h1.header:hover{
 }
 
 .checkboxes{
+	display: block;
+	text-align: center;
 	position: absolute;
 	left: 50%;
 	transform:translateX(-50%);
-	bottom: 20%;
+	bottom: 45%;
 
 }
 
@@ -131,11 +133,6 @@ h1.header:hover{
 
 .final-page{
 	text-align: center;
-}
-
-.checkboxes{
-		display: block;
-		text-align: center;
 }
 
 .reset-button{
